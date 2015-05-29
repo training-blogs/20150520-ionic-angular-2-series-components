@@ -14,3 +14,5 @@ export class MyComponent {
         console.log('My name is', this.name)
     }
 }
+
+bootstrap(MyComponent);
