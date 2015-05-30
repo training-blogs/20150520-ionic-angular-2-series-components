@@ -1,4 +1,4 @@
-import {Component, Template} from 'angular2/angular2'
+import {Component, Template, bootstrap} from 'angular2/angular2'
 
 @Component({
     selector: 'my-component'
