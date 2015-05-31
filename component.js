@@ -8,10 +8,10 @@ import {Component, Template, bootstrap} from 'angular2/angular2'
 })
 export class MyComponent {
     constructor() {
-        this.name = 'Max'
+        this.name = 'Max';
     }
     sayMyName() {
-        console.log('My name is', this.name)
+        console.log('My name is', this.name);
     }
 }
 
