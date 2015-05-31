@@ -3,7 +3,7 @@ import {Component, Template, bootstrap} from 'angular2/angular2'
 @Component({
     selector: 'my-component'
 })
-@View({
+@Template({
     inline: "<div>Hello my name is {{name}}</div>"
 })
 export class MyComponent {
