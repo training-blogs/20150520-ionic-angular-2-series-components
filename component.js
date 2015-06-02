@@ -6,7 +6,7 @@ import {Component, Template, bootstrap} from 'angular2/angular2'
 @Template({
     inline: "<div>Hello my name is {{name}}</div>"
 })
-export class MyComponent {
+class MyComponent {
     constructor() {
         this.name = 'Max';
     }
